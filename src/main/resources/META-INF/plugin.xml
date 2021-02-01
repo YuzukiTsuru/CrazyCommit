@@ -1,0 +1,34 @@
+<idea-plugin>
+
+    <!-- Unique id for this plugin. Must stay constant for the life of the plugin. -->
+    <id>com.gloomyghost.crazycommit</id>
+
+    <!-- Text to display as name on Preferences/Settings | Plugin page -->
+    <name>CrazyCommit</name>
+
+    <!-- Indicate this plugin can be loaded in all IntelliJ Platform-based products. -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Text to display as description on Preferences/Settings | Plugin page -->
+    <description>
+        <![CDATA[
+      Random Commit Message From Whatthecommit.com but locally storage
+    ]]>
+    </description>
+    <change-notes>
+        <![CDATA[ ]]>
+    </change-notes>
+
+    <!-- Text to display as company information on Preferences/Settings | Plugin page -->
+    <vendor url="https://plugins.jetbrains.com">IntelliJ Platform SDK</vendor>
+
+    <actions>
+        <action id="WhatTheCommit.Button" class="com.gloomyghost.crazycommit.MainAction"
+                text="Get Crazy!!!"
+                description="Load random commit message"
+                icon="/load.png">
+            <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
+        </action>
+    </actions>
+
+</idea-plugin>
