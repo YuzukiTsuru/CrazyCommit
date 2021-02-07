@@ -20,7 +20,7 @@
     </change-notes>
 
     <!-- Text to display as company information on Preferences/Settings | Plugin page -->
-    <vendor url="https://plugins.jetbrains.com">IntelliJ Platform SDK</vendor>
+    <vendor url="https://plugins.jetbrains.com">GloomyGhost</vendor>
 
     <actions>
         <action id="WhatTheCommit.Button" class="com.gloomyghost.crazycommit.MainAction"

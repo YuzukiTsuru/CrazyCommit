@@ -29,6 +29,8 @@ class MainAction : AnAction(), DumbAware {
         val data = Refreshable.PANEL_KEY.getData(e.dataContext)
         return if (data is CommitMessageI) {
             data
-        } else VcsDataKeys.COMMIT_MESSAGE_CONTROL.getData(e.dataContext)
+        } else {
+            VcsDataKeys.COMMIT_MESSAGE_CONTROL.getData(e.dataContext)
+        }
     }
 }
