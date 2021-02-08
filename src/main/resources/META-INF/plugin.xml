@@ -12,7 +12,7 @@
     <!-- Text to display as description on Preferences/Settings | Plugin page -->
     <description>
         <![CDATA[
-      Random Commit Message From Whatthecommit.com but locally storage
+      Random Commit Message From Whatthecommit.com but locally storage, data from Whatthecommit.com
     ]]>
     </description>
     <change-notes>
@@ -20,7 +20,7 @@
     </change-notes>
 
     <!-- Text to display as company information on Preferences/Settings | Plugin page -->
-    <vendor url="https://plugins.jetbrains.com">GloomyGhost</vendor>
+    <vendor url="https://www.gloomyghost.com/">GloomyGhost</vendor>
 
     <actions>
         <action id="WhatTheCommit.Button" class="com.gloomyghost.crazycommit.MainAction"
